@@ -1,0 +1,28 @@
+.Explore{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+#imgx{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#imgx h2{
+   margin-bottom: 0px;
+}
+#imgx img{
+    width: 250px;
+    height: 350px;
+}
+#fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
