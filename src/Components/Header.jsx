@@ -11,10 +11,12 @@ export default function Header(){
     return (
         <>
         <div className="Top">
-            <h1>Sales Now!!! Save up to 50%</h1>
+            <h1>Sales Now!!! &nbsp; Save up to 50%</h1>
         </div>
         <div id="Janore">
+            <span>
             <p>Shipping</p>
+            </span>
             {/* <h1><em>JANORE</em></h1> */}
             <span id="logo">
             <img src={img3} alt=""  />
@@ -31,9 +33,9 @@ export default function Header(){
             </span>
         </div>
         <div id="Line2">
-            <div id="lang">
-                <p>Language:</p>
-            <select name="lang" id="">
+            <div id="lang"  style={{width:"145px", height:'24px', gap:'12px'}}>
+                <p style={{width:'85px', height:"24px",fontWeight:'400',fontSize:'16px'}}>Language:</p>
+            <select name="lang" id="" style={{width:'48px',height:'24px', border:'0px'}}>
                 <option value="">EN</option>
                 <option value="">FR</option>
                 <option value="">IT</option>
@@ -42,11 +44,11 @@ export default function Header(){
             </select>
             </div>
             <div id="nav">
-                <Link id="tag" to ='/'>What's new </Link>
-                <Link id="tag" to ='/about'>Sales</Link>
-                <Link id="tag" to ='/about'>Shop</Link>
-                <Link id="tag" to ='/about'>Collection</Link>
-                <Link id="tag" to ='/about'>Store</Link>
+                <Link id="tag" to ='/' style={{width:'108px',height:'24px'}}>What's new </Link>
+                <Link id="tag" to ='/about'style={{width:'51px',height:'24px'}}>Sales</Link>
+                <Link id="tag" to ='/about'style={{width:'47px',height:'24px'}}>Shop</Link>
+                <Link id="tag" to ='/about' style={{width:'114px',height:'24px'}}>Collection</Link>
+                <Link id="tag" to ='/about' style={{width:'63px',height:'24px'}}>Store</Link>
                 <Link id="tag" to ='/about'>Blog</Link>
             </div>
             <div id="search">

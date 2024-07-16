@@ -9,12 +9,14 @@ import img3 from "../img/image 7.png";
 import img4 from "../img/image 5.png";
 import Header from "../Components/Header";
 import Footer  from "../Components/Footer";
+import Slide1 from "../Components/Slider1";
 const { Meta } = Card;
 
 export default function Fulldescription(){
   return (
     <>
     <Header />
+    <Slide1 />
       <section style={{display:'flex', gap:"70px"}}>
         <div>
             <h2>Product Details</h2>

@@ -2,3 +2,28 @@
     width: 60%;
     height: 60vh;
 }
+
+.slider {
+    margin:0 20px;
+    overflow:"hidden";
+    /* padding:2rem 0; */
+    height: 484px;
+  }
+  
+  .slider img {
+    width: 100%;
+    border-radius:10px;
+    height: 460px;
+  }
+  
+  .react-multi-carousel-list {
+  padding: 0rem 0 2rem 0;
+  }
+  
+  .custom-dot-list-style button{
+  border: none;
+  background: rgba(212, 184, 192, 1);
+  }
+  .react-multi-carousel-dot.react-multi-carousel-dot--active button{
+  background: rgba(212, 184, 192, 1) !important;
+  }
